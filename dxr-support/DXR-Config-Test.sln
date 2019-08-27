@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "D3D12RaytracingHelloWorld", "src\D3D12RaytracingHelloWorld\D3D12RaytracingHelloWorld.vcxproj", "{5018F6A3-6533-4744-B1FD-727D199FD2E9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4BE280A6-1066-41CA-ACDD-6BB7E532508B} = {4BE280A6-1066-41CA-ACDD-6BB7E532508B}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fallback", "Fallback", "{4F686017-C76B-497E-8405-7F023968E8AF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FallbackLayer", "Libraries\D3D12RaytracingFallback\src\FallbackLayer.vcxproj", "{4BE280A6-1066-41CA-ACDD-6BB7E532508B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Profile|x64 = Profile|x64
+		Profile|x86 = Profile|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5018F6A3-6533-4744-B1FD-727D199FD2E9}.Debug|x64.ActiveCfg = Debug|x64
+		{5018F6A3-6533-4744-B1FD-727D199FD2E9}.Debug|x64.Build.0 = Debug|x64
+		{5018F6A3-6533-4744-B1FD-727D199FD2E9}.Debug|x86.ActiveCfg = Debug|x64
+		{5018F6A3-6533-4744-B1FD-727D199FD2E9}.Profile|x64.ActiveCfg = Release|x64
+		{5018F6A3-6533-4744-B1FD-727D199FD2E9}.Profile|x64.Build.0 = Release|x64
+		{5018F6A3-6533-4744-B1FD-727D199FD2E9}.Profile|x86.ActiveCfg = Release|x64
+		{5018F6A3-6533-4744-B1FD-727D199FD2E9}.Profile|x86.Build.0 = Release|x64
+		{5018F6A3-6533-4744-B1FD-727D199FD2E9}.Release|x64.ActiveCfg = Release|x64
+		{5018F6A3-6533-4744-B1FD-727D199FD2E9}.Release|x64.Build.0 = Release|x64
+		{5018F6A3-6533-4744-B1FD-727D199FD2E9}.Release|x86.ActiveCfg = Release|x64
+		{4BE280A6-1066-41CA-ACDD-6BB7E532508B}.Debug|x64.ActiveCfg = Debug|x64
+		{4BE280A6-1066-41CA-ACDD-6BB7E532508B}.Debug|x64.Build.0 = Debug|x64
+		{4BE280A6-1066-41CA-ACDD-6BB7E532508B}.Debug|x86.ActiveCfg = Debug|x64
+		{4BE280A6-1066-41CA-ACDD-6BB7E532508B}.Profile|x64.ActiveCfg = Profile|x64
+		{4BE280A6-1066-41CA-ACDD-6BB7E532508B}.Profile|x64.Build.0 = Profile|x64
+		{4BE280A6-1066-41CA-ACDD-6BB7E532508B}.Profile|x86.ActiveCfg = Profile|x64
+		{4BE280A6-1066-41CA-ACDD-6BB7E532508B}.Release|x64.ActiveCfg = Release|x64
+		{4BE280A6-1066-41CA-ACDD-6BB7E532508B}.Release|x64.Build.0 = Release|x64
+		{4BE280A6-1066-41CA-ACDD-6BB7E532508B}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4BE280A6-1066-41CA-ACDD-6BB7E532508B} = {4F686017-C76B-497E-8405-7F023968E8AF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F763A25B-2115-4E87-87C4-2C6AA75C1542}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+**/bin
+**/obj
+FallbackLayer_Build
+.git
+packages
+.vs
