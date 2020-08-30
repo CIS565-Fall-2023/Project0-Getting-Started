@@ -220,7 +220,7 @@ The goal of this test is to check the level of support your device has for Direc
     * Open Visual Studio 2017 or 2019.
     * `File` > `Open` > `Project/Solution`
     * Navigate to the root folder and open `DXR-Config-Test.sln`.
-      * If using 2019, you will be prompted to upgrade the project toolset. Press cancel and do not change the project toolset.
+      * **If using 2019, you will be prompted to upgrade the project toolset. Press cancel and do not change the project toolset.**
     * `Tools` > `NuGet Package Manager` > `Manage NuGet Packages for Solution`. Search for `WinPixEventRuntime` and install it if not already installed.
     * In the solutions view, right click on `D3D12RaytracingHelloWorld` and then `Set as Startup Project`
     * Build and run the project. This can be done by hitting `CTRL + F5`.
