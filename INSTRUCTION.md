@@ -136,8 +136,9 @@ It is recommended that you use Nsight. Nsight is shipped with CUDA. If you set u
 #### Windows
 
 1. Switch your build configuration to "Debug" and `Rebuild` the solution.
-2. Select the Nsight menu in Visual Studio and select *Start CUDA Debugging*.
-3. When prompted, select the *Connect Unsecurely* option to start Nsight.
+2. Select the Nsight menu in Visual Studio and select *Start CUDA Debugging (Next-Gen)*.
+    * If you have an older GPU, like GTX 9xx or older, then you may have to use *Start CUDA Debugging (Legacy)*.
+3. If prompted, select the *Connect Unsecurely* option to start Nsight.
 4. Exit the app.
 5. Now place a breakpoint at Line 30 of `kernel.cu` => `if (x <= width && y <= height) {`
 6. Restart the CUDA Debugging. This time, the breakpoint should be hit.
@@ -152,9 +153,11 @@ It is recommended that you use Nsight. Nsight is shipped with CUDA. If you set u
     * Click close.
 10. Now click *Continue* in the Visual Studio toolbar.
 11. The breakpoint should be hit one more time. This time, the Autos window will should `index` as your number.
-12. Goto `Nsight` -> `Windows` -> `CUDA Info` -> `CUDA Info 1`.
-    * This window shows information about the kernel, threads, blocks, warps, memory allocations etc. Choose from the drop downs to view each. Finally, select *Warp* and keep it that way.
-13. Take a screenshot of this *Autos* window and the *CUDA Info* -> *Warp* as a image and save it under `images`.
+12. Goto  `Nsight` -> `Windows` -> `Warp Info`(if using older versions of Nsight, go to `Nsight` -> `Windows` -> `CUDA Info` -> `CUDA Info 1`).
+    * This window shows information about the kernel, threads, blocks, warps, memory allocations etc. Choose from the drop downs to view each.
+    * If using older version of Nsight, you may need to select *Warp* and keep it that way.
+13. Find the yellow arrow by mapping `blockIdx` and `threadIdx` in `Autos` -> to `CTA` and `Thread` respectively under the `Shader Info` column. Click on the row to highlight it. Take a screenshot of this *Autos* window and the *Warp Info* as a image and save it under `images`.
+    * Optionally, you may choose to double click on any one of the boxes in the "Threads" grid and watch the *Autos* window update the value.
 14. Play around with Nsight debugger as much as you want.
 
 #### Linux
