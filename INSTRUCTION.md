@@ -78,7 +78,7 @@ In your README, report the Compute Capability of your CUDA-compatible GPU (somet
      * Don't forget the `..` part! This tells CMake that the `CMakeLists.txt` file is in the parent directory of `build`.
    * Make sure that the "Source" directory points to the directory `cuda-getting-started`.
    * Click *Configure*.
-      * Select your Visual Studio version (2019 or 2017), and `x64` or `Win64` for your platform. (**NOTE:** you must use Win64, as we don't provide libraries for Win32.)
+      * Select your Visual Studio version (2019 or 2017), and `x64` for your platform. (**NOTE:** you must use x64, as we don't provide libraries for Win32.)
    * Click *Generate*.
 5. If generation was successful, there should now be a Visual Studio solution (`.sln`) file in the `build` directory that you just created. Open this with Visual Studio.
 6. Build. (Note that there are Debug and Release configuration options.)
