@@ -1,7 +1,7 @@
 Project 0 Getting Started: Instructions
 ========================
 
-This is due **September 4th 2020**. (See [late policy](#late-policy) at the bottom)
+This is due **September 3rd 2021**. (See [late policy](#late-policy) at the bottom)
 
 **Summary:** In this project, you will set up your GPU development tools and verify that you can build, run, and do performance analysis.
 
@@ -15,13 +15,13 @@ This project contains:
 
 ## Part 0: Sign up to CIS 565 on Piazza
 
-* Sign up [here](http://piazza.com/upenn/fall2020/cis565) to our Piazza class - we will be using Piazza for questions / updates. We encourage student questions and responses on this, meaning the TAs will wait a bit before responding to posts to promote student engagement.
+* Sign up [here](http://piazza.com/upenn/fall2021/cis565) to our Piazza class - we will be using Piazza for questions / updates. We encourage student questions and responses on this, meaning the TAs will wait a bit before responding to posts to promote student engagement.
 
 ## Part 1: Setup your Development Environment
 
 CIS 565 projects require a compatiable NVIDIA GPU. As some of you may not have an NVIDIA GPU in your personal computers, we have made them available through the CETS Virtual Lab.
 
-Follow the [Hardware and Software Setup](https://cis565-fall-2020.github.io/setup/) pages on the course website to set up your development environment.
+Follow the [Hardware and Software Setup](https://cis565-fall-2021.github.io/setup/) pages on the course website to set up your development environment.
 
 *Notes:*
 
@@ -47,7 +47,7 @@ Follow the [Hardware and Software Setup](https://cis565-fall-2020.github.io/setu
      clone your fork.
       * `git clone` the clone URL from your GitHub fork homepage.
 
-Note: Do not clone projects directly from the [CIS565-Fall-2020](https://github.com/CIS565-Fall-2020) GitHub organization. Be sure to fork the project on GitHub first and then clone it from your account.
+Note: Do not clone projects directly from the [CIS565-Fall-2021](https://github.com/CIS565-Fall-2021) GitHub organization. Be sure to fork the project on GitHub first and then clone it from your account.
 
 *Getting Started with GitHub Resources:*
 
