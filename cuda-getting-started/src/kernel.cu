@@ -20,9 +20,58 @@ void checkCUDAError(const char *msg) {
     }
 }
 
+/**
+ * Ver  Color           HEX         RGB
+ * 0  -> White          #ffffff     rgb(255, 255, 255)
+ * 1  -> Red            #ff0000     rgb(255,   0,   0)
+ * 2  -> Orange         #ff8000     rgb(255, 128,   0)
+ * 3  -> Yellow         #ffff00     rgb(255, 255,   0)
+ * 4  -> Lime           #80ff00     rgb(128, 255,   0)
+ * 5  -> Green          #00ff00     rgb(  0, 255,   0)
+ * 6  -> Spring Green   #00ff80     rgb(  0, 255, 128)
+ * 7  -> Cyan           #00ffff     rgb(  0, 255, 255)
+ * 8  -> Dodger Blue    #0080ff     rgb(  0, 128, 255)
+ * 9  -> Blue           #0000ff     rgb(  0,   0, 255)
+ * 10 -> Purple         #8000ff     rgb(128,   0, 255)
+ * 11 -> Violet         #ff00ff     rgb(255,   0, 255)
+ * 12 -> Magenta        #ff0080     rgb(255,   0, 128)
+ * *  -> Black          #000000     rgb(  0,   0,   0)
+ */
+__host__ __device__ void versionToColor(uchar4* pixel, int version) {
+    switch(version) {
+        case 0:
+            pixel->x = 255; pixel->y = 255; pixel->z = 255; break;
+        case 1:
+            pixel->x = 255; pixel->y =   0; pixel->z =   0; break;
+        case 2:
+            pixel->x = 255; pixel->y = 128; pixel->z =   0; break;
+        case 3:
+            pixel->x = 255; pixel->y = 255; pixel->z =   0; break;
+        case 4:
+            pixel->x = 128; pixel->y = 255; pixel->z =   0; break;
+        case 5:
+            pixel->x =   0; pixel->y = 255; pixel->z =   0; break;
+        case 6:
+            pixel->x =   0; pixel->y = 255; pixel->z = 128; break;
+        case 7:
+            pixel->x =   0; pixel->y = 255; pixel->z = 255; break;
+        case 8:
+            pixel->x =   0; pixel->y = 128; pixel->z = 255; break;
+        case 9:
+            pixel->x =   0; pixel->y =   0; pixel->z = 255; break;
+        case 10:
+            pixel->x = 128; pixel->y =   0; pixel->z = 255; break;
+        case 11:
+            pixel->x = 255; pixel->y =   0; pixel->z = 255; break;
+        case 12:
+            pixel->x = 255; pixel->y =   0; pixel->z = 128; break;
+        default:
+            pixel->x =   0; pixel->y =   0; pixel->z =   0;
+    }
+}
+
 // Kernel that writes the image to the OpenGL PBO directly.
-__global__ void createVersionVisualization(uchar4* PBOpos, int width, int height, int major,
-        int minor) {
+__global__ void createVersionVisualization(uchar4* PBOpos, int width, int height, int major, int minor) {
     int x = (blockIdx.x * blockDim.x) + threadIdx.x;
     int y = (blockIdx.y * blockDim.y) + threadIdx.y;
     int index = x + (y * width);
@@ -35,19 +84,7 @@ __global__ void createVersionVisualization(uchar4* PBOpos, int width, int height
         PBOpos[index].z = 0;
 
         int ver = y < height / 2 ? major : minor;
-        if (ver == 0) {
-            PBOpos[index].x = 255;
-        } else if (ver == 1) {
-            PBOpos[index].y = 255;
-        } else if (ver == 2) {
-            PBOpos[index].z = 255;
-        } else if (ver == 3) {
-            PBOpos[index].x = 255;
-            PBOpos[index].y = 255;
-        } else if (ver == 5) {
-            PBOpos[index].z = 255;
-            PBOpos[index].y = 255;
-        }
+        versionToColor(&PBOpos[index], ver);
     }
 }
 
