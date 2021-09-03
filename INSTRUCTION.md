@@ -140,7 +140,7 @@ It is recommended that you use Nsight. Nsight is shipped with CUDA. If you set u
     * If you have an older GPU, like GTX 9xx or older, then you may have to use *Start CUDA Debugging (Legacy)*.
 3. If prompted, select the *Connect Unsecurely* option to start Nsight.
 4. Exit the app.
-5. Now place a breakpoint at Line 30 of `kernel.cu` => `if (x <= width && y <= height) {`
+5. Now place a breakpoint at Line 79 of `kernel.cu` => `if (x <= width && y <= height) {`
 6. Restart the CUDA Debugging. This time, the breakpoint should be hit.
     * The *Autos* and *Locals* debugging tabs should appear at the bottom. (You can also open this from Debug -> Windows -> Autos/Locals)
     * Notice the values that are in the autos.
