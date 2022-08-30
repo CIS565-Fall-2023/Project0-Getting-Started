@@ -115,14 +115,21 @@ It is recommended that you use Nsight. Nsight is shipped with CUDA. If you set u
 
 #### Windows
 
-1. Go to the Nsight menu in Visual Studio.
-2. Select *Start Performance Analysis...*.
-3. Select *Trace Application*. Under *Trace Settings*, enable tracing for CUDA and OpenGL.
-4. Under *Application Control*, click *Launch*.
+1. Go to the Nsight menu in Visual Studio. 
+	*If you dont see the Nsight Menu in the top panel then it's located inside the Extensions Menu (if you have setup your environment correctly).*
+	* *Enabling Nsight menu to apeear in the top Navigation panel instead of the Extensions Menu*
+		* Click the `Extensions` button located at the top Panel
+		* Click on `Customize Menu..` button located in the 'Extensions' drop down menu. This will open up the Customise Dialog Box.
+		* Un-check 'Nsight Developer Tools Inegration' and 'Nsight Visual Studio Edition' located in the Extensions Menu of the Customise Dialog Box.
+2. Click on *Nsight Systems 'Your Version of Nsight' *.
+3. Select *Trace*.
+4. Click *Target for profiling...*. Select your machine under 'Localhost connection'.
+5. Under *Trace Settings* that now appear, enable tracing for CUDA and OpenGL.
+6. Click *Start*.
    * If you have switchable graphics (NVIDIA Optimus), see the note in Part 3.1.
-5. Run the program for a few seconds, then close it.
-6. At the top of the report page, select *Timeline* from the drop-down menu.
-7. Take a screenshot of this tab and save it to `images`, for Part 4.
+7. Run the program for a few seconds, then close it.
+8. At the top of the report page, select *Timeline* from the drop-down menu.
+9. Take a screenshot of this tab and save it to `images`, for Part 4.
 
 #### Linux
 
