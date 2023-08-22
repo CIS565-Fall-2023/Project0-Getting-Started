@@ -1,14 +1,30 @@
-Project 0 Getting Started
-====================
+# Project 0: Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Aditya Gupta
+  * [Website](http://adityag1.com/), [GitHub](https://github.com/AdityaGupta1), [LinkedIn](https://www.linkedin.com/in/aditya-gupta1/), [3D renders](https://www.instagram.com/sdojhaus/)
+* Tested on: Windows 10, i7-10750H @ 2.60GHz 16GB, NVIDIA GeForce RTX 2070 8GB (personal laptop)
+  * Compute capability: 7.5
 
-### (TODO: Your README)
+### README
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+#### CUDA project
 
+![](images/screenshot.png)
+
+#### Analysis
+
+![](images/analysis.png)
+
+#### Nsight debugging
+
+![](images/debugging.png)
+
+#### WebGL
+
+![](images/webgl_report.png)
+
+#### DXR
+
+![](images/triangle.png)
