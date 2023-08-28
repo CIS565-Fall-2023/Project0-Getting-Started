@@ -3,12 +3,10 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Han Wang
+  * 
+* Tested on: (TODO) Windows 11, 11th Gen Intel(R) Core(TM) i9-11900H @ 2.50GHz   2.50 GHz 24GB, GeForce RTX 3070 
 
 ### (TODO: Your README)
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
-
+![Screenshot](images/part1.png)
