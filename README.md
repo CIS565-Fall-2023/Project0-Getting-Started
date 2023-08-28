@@ -5,8 +5,10 @@ Project 0 Getting Started
 
 * Han Wang
   * 
-* Tested on: (TODO) Windows 11, 11th Gen Intel(R) Core(TM) i9-11900H @ 2.50GHz   2.50 GHz 24GB, GeForce RTX 3070 
+* Tested on:  Windows 11, 11th Gen Intel(R) Core(TM) i9-11900H @ 2.50GHz   2.50 GHz 24GB, GeForce RTX 3070 
 
-### (TODO: Your README)
+### My readMe
+
+Part3.11
 
 ![Screenshot](images/part1.png)
