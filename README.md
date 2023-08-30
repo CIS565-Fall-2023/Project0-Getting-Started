@@ -3,9 +3,9 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Alan Qiao
+  * [LinkedIn](https://www.linkedin.com/in/alan-qiao/)
+* Tested on: Windows 11 22H2, i7-10750H @ 2.60GHz, 16GB, GTX 1650
 
 ### (TODO: Your README)
 
