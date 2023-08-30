@@ -5,10 +5,14 @@ Project 0 Getting Started
 
 * Alan Qiao
   * [LinkedIn](https://www.linkedin.com/in/alan-qiao/)
-* Tested on: Windows 11 22H2, i7-10750H @ 2.60GHz, 16GB, GTX 1650
+* Tested on: Windows 11 22H2, i7-10750H @ 2.60GHz, 16GB, GTX 1650 (Personal)
 
-### (TODO: Your README)
+### Screenshots
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+![](images/Screenshot%202023-08-30%20134009.png)
+![](images/Screenshot%202023-08-30%20134710.png)
+![](images/Screenshot%202023-08-30%20135558.png)
+![](images/Screenshot%202023-08-30%20140150.png)
+![](images/Screenshot%202023-08-30%20141200.png)
+
 
