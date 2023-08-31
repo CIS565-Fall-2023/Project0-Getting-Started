@@ -3,12 +3,29 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Yue Zhang
+  * [LinkedIn](https://www.linkedin.com/in/yuezhang027/), [personal website](https://yuezhanggame.com/).
+* Tested on: Windows 11, i9-13900H @ 2.60GHz 32GB, NVIDIA GeForce RTX 4070 Laptop 8GB (Personal Laptop)
+* Compute capability: 8.9
 
-### (TODO: Your README)
+### README
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+#### CUDA project
 
+![](images/3.1.1.png)
+
+#### Analysis
+
+![](images/3.1.2.png)
+
+#### Nsight debugging
+
+![](images/3.1.3.png)
+
+#### WebGL
+
+![](images/3.2.png)
+
+#### DXR
+
+![](images/3.3.png)
