@@ -8,6 +8,7 @@ Project 0 Getting Started
 * Tested on: Windows 10, i7-10870H @ 2.20GHz 32GB, GTX 3060 6009MB
 
 ###
+![](images/3_1_1.PNG)
 ![](images/3_1_2.PNG)
 ![](images/3_1_3.PNG)
 ![](images/3_2.PNG)
