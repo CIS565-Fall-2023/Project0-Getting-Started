@@ -3,12 +3,22 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Yinuo (Travis) Xie
+  * [LinkedIn(https://www.linkedin/com/in/yinuotxie/)
+* Tested on: Windows 10, i7-12700 @2.10GHz 32GB, NVIDIA T1000 (Moore Windows PC Lab)
 
-### (TODO: Your README)
+**Screenshots
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+Part 3.1.1: Cuda
+![test_cuda](images/test_cuda.png)
+
+Part 3.1.2: Analyze
+
+Part 3.1.3: Nsight Debugging 
+![nsight_dubug](images/nsight_debug.png)
+
+Part 3.2: WebGL
+![test_webgl](images/test_webgl.png)
+
+Part 3: DXR
 
