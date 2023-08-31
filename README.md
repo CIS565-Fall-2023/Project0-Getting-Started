@@ -7,6 +7,7 @@ Project 0 Getting Started
   * [LinkedIn](https://www.linkedin.com/in/lindadaism/), [Portfolio](https://lindadaism.com/)
 * Tested on:
 
+             OS:	        Windows 11 Home
              Processor:	12th Gen Intel(R) Core(TM) i7-12800H   2.40 GHz
              Graphics:	NVIDIA GeForce RTX 3070 Ti
              Storage:	        1 TB SSD
