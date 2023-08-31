@@ -13,6 +13,14 @@ Part3.11
 
 ![Screenshot](images/part1.png)
 
+I'm sorry that I can't connect to my local server and Thus I couldn't start the trace.
+I tried lots of ways, but I failed. It's probably because of my company's security app called IOA that blocked my local server.
+I still haven't arrived Upenn. I will use the sig lab's computer to analyze what I need to analyze my code.
+![Screenshot](images/pingFail.png)
+![Screenshot](images/error1.png)
+![Screenshot](images/error2.png)
+![Screenshot](images/error3.png)
+
 part4 debug
 
 ![Screenshot](images/part3.png)
