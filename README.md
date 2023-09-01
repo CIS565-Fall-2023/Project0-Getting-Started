@@ -3,12 +3,23 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Xitong Zheng
+  * [LinkedIn](https://www.linkedin.com/in/xitong-zheng-5b6543205/)
+* Tested on: Windows 11, i7-12700k 32GB, GTX 4090 
 
-### (TODO: Your README)
+### Add name to project
+![part3_1_1](./images/Part_3_1_1.png)
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+### Use Nsight System 22.4.2 to analyze
+![part3_1_2](./images/Part_3_1_2.png)
 
+### Nsight Debugging
+![part3_1_3](./images/Part_3_1_3.png)
+![part3_1_4](./images/Part_3_1_4.png)
+
+## WebGL Suppurt Test
+![](./images/Part_3_2.png)
+
+## DXR Test
+Both FL-DXR and DXR support. Give picture in DXR mode.
+![](./images/Part_3_3.png)
