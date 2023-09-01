@@ -22,6 +22,6 @@ Nsight Timeline
 
 webGL enabled on chrome
 
-![](images/green_triangles.jpg)
+![](images/green_triangle.jpg)
 
 DXR enabled
