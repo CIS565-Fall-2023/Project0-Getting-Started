@@ -12,8 +12,8 @@ Project 0 Getting Started
 Include screenshots, analysis, etc. (Remember, this is public, so don't put
 anything here that you don't want to share with the world.)
 
-![3.1.1](3.1.1.png)
-![3.1.2](3.1.2.png)
-![3.1.2](3.1.2(2).png)
-![3.1.3](3.1.3.png)
-![3.2](3.2.png)
+![3.1.1](images/3.1.1.png)
+![3.1.2](images/3.1.2.png)
+![3.1.2](images/3.1.2(2).png)
+![3.1.3](images/3.1.3.png)
+![3.2](images/3.2.png)
