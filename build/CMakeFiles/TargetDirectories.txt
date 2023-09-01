@@ -1,0 +1,3 @@
+C:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir
+C:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/build/CMakeFiles/ZERO_CHECK.dir
