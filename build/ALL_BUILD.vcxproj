@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{88F30664-4B1B-399A-999F-F73D1E8A7591}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\cuda-getting-started\external\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\cuda-getting-started\external\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\cuda-getting-started\external\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\cuda-getting-started\external\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\cuda-getting-started\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/cuda-getting-started/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/cuda-getting-started" "-BC:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/build" --check-stamp-file "C:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindCUDA\run_nvcc.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.cmake.pre-gen;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.depend;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\cuda-getting-started\cmake\CUDAComputesList.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\cuda-getting-started\cmake\FindGLEW.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\cuda-getting-started\cmake\FindGLFW.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\cuda-getting-started\cmake\cuda_compute_capability.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/cuda-getting-started/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/cuda-getting-started" "-BC:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/build" --check-stamp-file "C:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindCUDA\run_nvcc.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.cmake.pre-gen;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.depend;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\cuda-getting-started\cmake\CUDAComputesList.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\cuda-getting-started\cmake\FindGLEW.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\cuda-getting-started\cmake\FindGLFW.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\cuda-getting-started\cmake\cuda_compute_capability.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/cuda-getting-started/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/cuda-getting-started" "-BC:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/build" --check-stamp-file "C:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindCUDA\run_nvcc.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.cmake.pre-gen;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.depend;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\cuda-getting-started\cmake\CUDAComputesList.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\cuda-getting-started\cmake\FindGLEW.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\cuda-getting-started\cmake\FindGLFW.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\cuda-getting-started\cmake\cuda_compute_capability.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/cuda-getting-started/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/cuda-getting-started" "-BC:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/build" --check-stamp-file "C:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindCUDA\run_nvcc.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\3.24.2\CMakeCCompiler.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\3.24.2\CMakeCXXCompiler.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\3.24.2\CMakeRCCompiler.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\3.24.2\CMakeSystem.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.cmake.pre-gen;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.depend;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\cuda-getting-started\cmake\CUDAComputesList.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\cuda-getting-started\cmake\FindGLEW.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\cuda-getting-started\cmake\FindGLFW.cmake;C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\cuda-getting-started\cmake\cuda_compute_capability.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\ZERO_CHECK.vcxproj">
+      <Project>{27B8010F-CBD2-3391-8D1C-8C0D36A506FA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\cis565_getting_started.vcxproj">
+      <Project>{68B4A755-CBF6-3660-8184-E709E0725CB5}</Project>
+      <Name>cis565_getting_started</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

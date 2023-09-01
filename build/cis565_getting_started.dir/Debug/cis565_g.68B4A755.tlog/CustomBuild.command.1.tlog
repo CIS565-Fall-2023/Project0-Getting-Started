@@ -1,0 +1,26 @@
+^C:\USERS\HELEN\ONEDRIVE - PENNO365\DESKTOP\CIS5650\CIS-5650-PROJECT0-GETTING-STARTED\CUDA-GETTING-STARTED\SRC\KERNEL.CU
+setlocal
+cd "C:\Users\Helen\OneDrive - PennO365\Desktop\cis5650\CIS-5650-Project0-Getting-Started\build\CMakeFiles\cis565_getting_started.dir\src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=ON -D "CCBIN:PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools/MSVC/14.29.30133/bin/Hostx64/x64" -D build_configuration:STRING=Debug -D "generated_file:STRING=C:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Debug/cis565_getting_started_generated_kernel.cu.obj" -D "generated_cubin_file:STRING=C:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Debug/cis565_getting_started_generated_kernel.cu.obj.cubin.txt" -P "C:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.Debug.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HELEN\ONEDRIVE - PENNO365\DESKTOP\CIS5650\CIS-5650-PROJECT0-GETTING-STARTED\CUDA-GETTING-STARTED\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/cuda-getting-started" "-BC:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/build" --check-stamp-file "C:/Users/Helen/OneDrive - PennO365/Desktop/cis5650/CIS-5650-Project0-Getting-Started/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
