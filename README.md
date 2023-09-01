@@ -15,16 +15,16 @@ CUDA support
 
 Nsight systems profiling report
 
-![](.\images\nsys report.png)
+![](.\images\nsys_report.png)
 
 Nsight CUDA debug
 
-![](.\images\nsight debug.png)
+![](.\images\nsight_debug.png)
 
 WebGL support (HW accel)
 
-![](.\images\webgl support.png)
+![](.\images\webgl_support.png)
 
 DXR support (full support)
 
-![](.\images\dxr support.png)
+![](.\images\dxr_support.png)
