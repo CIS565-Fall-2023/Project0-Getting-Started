@@ -21,10 +21,10 @@ Nsight CUDA debug
 
 ![](.\images\nsight debug.png)
 
-WebGL support
+WebGL support (HW accel)
 
 ![](.\images\webgl support.png)
 
-DXR support
+DXR support (full support)
 
 ![](.\images\dxr support.png)
