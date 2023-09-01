@@ -3,12 +3,25 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Helena Zhang
+* Tested on: Windows 11, i7-10750 @ 2.6GHz 16GB, Geforce RTX 2060 6GB
 
-### (TODO: Your README)
+### README
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+Compute Capability of Geforce RTX 2060: 	7.5
 
+![](images/3.1.3.jpg)
+
+Running starter project
+
+![](images/nsight.jpg)
+
+Nsight Timeline
+
+![](images/webGL.jpg)
+
+webGL enabled on chrome
+
+![](images/green_triangles.jpg)
+
+DXR enabled
