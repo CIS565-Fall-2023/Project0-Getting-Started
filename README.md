@@ -3,12 +3,28 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Han Yang
+  *  [LinkedIn]([LinkedIn](https://www.linkedin.com/in/han-yang-0031231a3/)), [personal website](https://bdwhst.wixsite.com/portfolio), [GitHub]([bdwhst (github.com)](https://github.com/bdwhst)), etc.
+* Tested on: Windows 11, i9-12900HX @ 2.30GHz 16GB, RTX4080 laptop 12GB (Moore 2222 Lab)
 
-### (TODO: Your README)
+## README
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+CUDA support
 
+![](.\images\cuda.png)
+
+Nsight systems profiling report
+
+![](.\images\nsys report.png)
+
+Nsight CUDA debug
+
+![](.\images\nsight debug.png)
+
+WebGL support
+
+![](.\images\webgl support.png)
+
+DXR support
+
+![](.\images\dxr support.png)
