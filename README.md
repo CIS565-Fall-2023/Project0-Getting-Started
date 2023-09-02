@@ -8,9 +8,11 @@ Project 0 Getting Started
 [😇 my website](https://jchunx.dev)
 [🥵 X (formerly 🐦)](https://x.com/codemonke_)
 
-Tested on: Ubuntu 22.04, i5-8400, RTX 3060Ti
+Tested on: Ubuntu 22.04, i5-8400, RTX 3060Ti, personal machine
 
-### README
+### Results
 
-Compute capability: 8.6
+GPU Compute capability: 8.6
 
+![](images/result.png)
+![](images/webgl.png)
