@@ -3,12 +3,30 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Xiaoyue Ma
+  * [LinkedIn](https://www.linkedin.com/in/xiaoyue-ma-6b268b193/)
+* Tested on: Windows 10, i7-12700H @ 2.30 GHz 16GB, GTX3060 8GB
 
-### (TODO: Your README)
+### CUDA Compute Capability: 8.6
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+1. Cuda project output：
+
+![](2.png)
+
+2. Nsight debug：
+
+![](5.png)
+
+3. Break point debug：
+
+![](1.png)
+
+4. WebGL support：
+
+![](3.png)
+
+5. DXR triangle：
+
+![](4.png)
+
 
