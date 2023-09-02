@@ -3,12 +3,14 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+**Jason Xie**
+[🤓 LinkedIn](https://linkedin.com/in/jia-chun-xie)
+[😇 my website](https://jchunx.dev)
+[🥵 X (formerly 🐦)](https://x.com/codemonke_)
 
-### (TODO: Your README)
+Tested on: Ubuntu 22.04, i5-8400, RTX 3060Ti
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+### README
+
+Compute capability: 8.6
 
