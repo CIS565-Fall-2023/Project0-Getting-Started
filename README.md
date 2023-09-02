@@ -18,4 +18,7 @@ Tested on: Ubuntu 22.04, i5-8400, RTX 3060Ti, personal machine
 GPU Compute capability: 8.6
 
 ![](images/result.png)
+![](images/prof.png)
 ![](images/webgl.png)
+
+* No access to Windows machine, so no DXR results for now.
