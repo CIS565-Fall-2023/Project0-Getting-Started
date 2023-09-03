@@ -3,12 +3,23 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Ruijun(Daniel) Zhong
+    * [LinkedIn](https://www.linkedin.com/in/daniel-z-73158b152/)    
+    * [Personal Website](https://www.danielzhongportfolio.com/)
+* Tested on: Windows 11 pro, 12th Gen Intel(R) Core(TM) i7-12700K 3.61 GHz 32.0 GB, NVIDIA GeForce RTX 3070 Ti (personal computer)
 
-### (TODO: Your README)
+* CUDA Environment
+![3.1.1](images/3.1.1.png)
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+* Nsight Trace Analyze
+![3.1.2](images/3.1.2.png)
+![3.1.2](images/3.1.2(2).png)
 
+* Nsight Debug Analyze
+![3.1.3](images/3.1.3.png)
+
+* WebGL
+![3.2](images/3.2.png)
+
+* DXR (RTX 3070Ti)
+![3.3](images/3.3.png)
